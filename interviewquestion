@@ -1,0 +1,25 @@
+1. Compare the current with next elements in the array and find the next largest number in the array sequence, and if there is no large num/end of array replace it with -1.
+ 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+ex: [4, 5, 1, 0, 3, 4] => output : [5, -1, 3, 3, 4]	
+
+2. in solid principle use oops concept?
+3. what is helm?
+4. what is compitable feture?
+5. what are the bean life cycle?
+6. what is ioc container?
+7. difference between bean and component?
+8. what is kubernate?
+9. what are the production issues?
+10. what is AOP? and how can we avoid to log the password field?
+11. what is transition keyword? have you used in your project?
+12. what is record class? provide the real example?
+13. what is saga design pattern?
+14. what is @transition keyword? how rollout and rollback is work?
+15. what 
+
+16. stream api for get employee highest salary for each department wise?
+
+
+
+
+											
