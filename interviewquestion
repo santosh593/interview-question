@@ -40,4 +40,5 @@ HashMap<String, String> map = new HashMap();
         map.put("A", "DATA");
         map.get("A");
         map.get("null");
+how to register the service in microservice?
 											
