@@ -19,7 +19,25 @@ ex: [4, 5, 1, 0, 3, 4] => output : [5, -1, 3, 3, 4]
 
 16. stream api for get employee highest salary for each department wise?
 
+17. how to make immutable?
+ final class Employee{
+   private final Map<String,String> data = new HashMap<>();
+   private final Data date;
+    public Employee(Data date) {
+        this.date = date;
+    }
+}
+Set<String> set = new HashSet<>();
+        set.add("aa");
+        //set.add(new User("DATA"));
+        System.out.println(set.size());
+localhost:8084/api/?id=23&name="Ashish"&{uuid = 23,username=A.J}
 
-
-
+HashMap<String, String> map = new HashMap();
+        map.put("A", "Ashish");
+        map.put(null, "Santosh");
+        map.put(null, "NTT");
+        map.put("A", "DATA");
+        map.get("A");
+        map.get("null");
 											
