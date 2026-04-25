@@ -42,3 +42,13 @@ HashMap<String, String> map = new HashMap();
         map.get("null");
 how to register the service in microservice?
 											
+1. syscronised hasp map is fail fast or failsafe.
+Collections.synchronizedMap(new HashMap<>()) is not fail-safe. Its iterators are generally fail-fast.
+2.different b/w syscronised hasp map and concurrenthashmap?
+3. current haspmap is failfast or failsafe?
+4.current haspmap is failfast or failsafe?
+
+5. when to use sysncronzed hashmap and concurrenthashmap?
+Short Rule
+Low concurrency / simple legacy synchronization → synchronizedMap
+High concurrency / scalable multi-threading → ConcurrentHashMap
