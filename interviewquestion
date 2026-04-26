@@ -52,3 +52,10 @@ Collections.synchronizedMap(new HashMap<>()) is not fail-safe. Its iterators are
 Short Rule
 Low concurrency / simple legacy synchronization → synchronizedMap
 High concurrency / scalable multi-threading → ConcurrentHashMap
+
+
+ compiltableFuture-> 
+what is feature?
+
+both are asyn complitiable are nonblocking. suppose if are going to resturent the generate your token you do any work once you order is completed then you will notify by the resturent.
+but in future if generate a token then you need to wait until order will complete.
